@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {[string is double -strict $a] && [string is double -strict $b]} {if {$a == 0} {return 0} {return [expr {$b / $a}]} } else {return "Error: Input values must be numbers"} }
